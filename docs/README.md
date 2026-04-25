@@ -12,8 +12,7 @@ This folder contains all of the project's formal documentation — including the
 docs/
 ├── Final_Reflection_Report.pdf
 ├── Interview_Presentation.pdf
-├── Project_Progress_Screenshots.html    ← HTML version of the screenshots doc
-├── Project_Progress_Screenshots.md      ← Markdown version of the screenshots doc
+├── Project_Progress_Screenshots.pdf      
 └── Team_Presentation_Guidebook.pdf
 ```
 
@@ -52,11 +51,10 @@ A comprehensive team retrospective summarizing the full project experience. Incl
 
 ---
 
-### `Project_Progress_Screenshots.md` / `.html`
+### `Project_Progress_Screenshots.pdf`
 A structured document created as part of the course submission requirements. It contains annotated screenshots documenting the full project journey, including:
 - WiDS Datathon registration proofs
 - Kaggle competition setup and data exploration
 - Public leaderboard submission history
 - Final private leaderboard score
 
-The `.md` file is the primary version. The `.html` file is an alternative format for printing or sharing.
