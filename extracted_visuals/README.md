@@ -18,6 +18,7 @@ extracted_visuals/
 │   ├── Kaggle_Dataset_train.png              # Training dataset view (221 fire trajectories)
 │   ├── Kaggle_Overview.png                   # Competition overview page on Kaggle
 │   ├── Private Score.png                     # Final private leaderboard score after competition close
+│   ├── Public_Scores_Ranking.png              # Final public leaderboard score after competition close
 │   ├── Submissions.png                       # Public leaderboard submission history
 │   └── Team Registration .png               # Kaggle team registration confirmation
 │
@@ -56,6 +57,7 @@ extracted_visuals/
 | `Kaggle_Dataset_test.png` | The test dataset as shown in the Kaggle interface. Contains 95 fire trajectories for which predictions must be submitted. |
 | `Submissions.png` | The public leaderboard submission history, showing each submission's public score (C-index) and timestamp. |
 | `Private Score.png` | The final private leaderboard score revealed after the competition ended, computed on the hidden portion of the test data. |
+| `Public Score.png` | The final public leaderboard score revealed after the competition ended, full ranking. |
 
 ---
 
