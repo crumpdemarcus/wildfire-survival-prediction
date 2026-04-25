@@ -140,8 +140,7 @@ This folder contains all of the project's formal documentation — including the
 docs/
 ├── Final_Reflection_Report.pdf
 ├── Interview_Presentation.pdf
-├── Project_Progress_Screenshots.html    ← HTML version of the screenshots doc
-├── Project_Progress_Screenshots.md      ← Markdown version of the screenshots doc
+├── Project_Progress_Screenshots.pdf
 └── Team_Presentation_Guidebook.pdf
 ```
 
@@ -169,7 +168,7 @@ docs/
   - Long-term takeaways about the role of survival analysis in real-world domains
   - Reflections on teamwork, workflow, and process
 
-- **`Project_Progress_Screenshots.md` / `.html`**: A structured document created as part of the course submission requirements. It contains annotated screenshots documenting the full project journey, including WiDS Datathon registration proofs, Kaggle competition setup and data exploration, public leaderboard submission history, and final private leaderboard score.
+- **`Project_Progress_Screenshots.pdf`**: A structured document created as part of the course submission requirements. It contains annotated screenshots documenting the full project journey, including WiDS Datathon registration proofs, Kaggle competition setup and data exploration, public leaderboard submission history, and final private leaderboard score.
 
 ### 2. Extracted Visuals (`extracted_visuals/`)
 
@@ -188,6 +187,7 @@ extracted_visuals/
 │   ├── Kaggle_Dataset_train.png              # Training dataset view (221 fire trajectories)
 │   ├── Kaggle_Overview.png                   # Competition overview page on Kaggle
 │   ├── Private Score.png                     # Final private leaderboard score after competition close
+│   ├── Public_Scores_Ranking.png              # Final public leaderboard score after competition close
 │   ├── Submissions.png                       # Public leaderboard submission history
 │   └── Team Registration .png               # Kaggle team registration confirmation
 │
@@ -209,7 +209,7 @@ extracted_visuals/
 ```
 
 **File Descriptions:**
-- **Kaggle Registration Screenshots**: Visuals documenting the competition setup, rules, datasets, and final placements. Includes `Kaggle_Overview.png`, `Team Registration .png`, `Kaggle_CLI_Download.png`, `Kaggle_Data_Description.png`, `Kaggle_Dataset_metaData.png`, `Kaggle_Dataset_sample.png`, `Kaggle_Dataset_train.png`, `Kaggle_Dataset_test.png`, `Submissions.png`, and `Private Score.png`.
+- **Kaggle Registration Screenshots**: Visuals documenting the competition setup, rules, datasets, and final placements. Includes `Kaggle_Overview.png`, `Team Registration .png`, `Kaggle_CLI_Download.png`, `Kaggle_Data_Description.png`, `Kaggle_Dataset_metaData.png`, `Kaggle_Dataset_sample.png`, `Kaggle_Dataset_train.png`, `Kaggle_Dataset_test.png`, `Submissions.png`, `Public Score.png`, and `Private Score.png`.
 - **WiDS Registration Screenshots**: Evidence of official participation, including `WIDS_Datathon_Global_Challenge_2026_Registration.png`, `End_of_registration_WIDS_Datathon.png`, and `Email_Registered_WIDS_Datathon_2026.png`.
 - **Technical Diagrams & EDA Plots**: Project workflow diagrams and visualizations created to explain our methodology, including `eda_kinematic_validation.png`, `model_committee.png`, `permutation_feature_importance.png`, `actionable_predictions.png`, `repo_setup.png`, `technical_feature_engineering.png`, `technical_cv_leakage.png`, `technical_hpo.png`, and `technical_monotonic.png`.
 
