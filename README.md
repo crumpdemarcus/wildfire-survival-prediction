@@ -68,6 +68,47 @@ Honest evaluation was a core priority. Competition leaderboards can be gamed by 
 - **Safe survival wrapper:** A custom `safe_surv_val` function (ε = 1e-4) prevents numerical collapse when test event times exceed the training time horizon.
 
 The concordance index (C-index) measures rank-ordering accuracy: in 97.37% of pairwise fire comparisons, the model correctly predicted which fire would arrive first.
+---
+
+## Project Structure
+
+A comprehensive breakdown of all files and directories in this repository.
+
+```text
+wildfire-survival-prediction-main/
+│
+├── Data Science Instuctions.txt        # Initial project instructions and guidelines
+├── LICENSE                             # MIT License for this repository
+├── README.md                           # Main documentation file (this document)
+├── requirements.txt                    # Python package dependencies required to run the code
+│
+├── docs/                               # Project documentation and presentation materials
+│   ├── Final_Reflection_Report.pdf     # Team reflection on the project process and learnings
+│   ├── Interview_Presentation.pdf      # Stakeholder-facing presentation covering problem, approach, and results
+│   └── Team_Presentation_Guidebook.pdf # Q&A reference guide with glossary and analogy explanations
+│
+├── extracted_visuals/                  # Figures, diagrams, and screenshots used in docs and notebooks
+│   ├── WIDS_registration_screenshots/  # Proof of registration for the WiDS Datathon
+│   │   ├── Email_Registered_WIDS_Datathon_2026.png
+│   │   ├── End_of_registration_WIDS_Datathon.png
+│   │   └── WIDS_Datathon_Global_Challenge_2026_Registration.png
+│   ├── Kaggle_*.png                    # Screenshots detailing the Kaggle competition overview and datasets
+│   ├── actionable_predictions.png      # Visualization of prediction outcomes
+│   ├── eda_kinematic_validation.png    # Exploratory Data Analysis kinematics plots
+│   ├── model_committee.png             # Ensemble model architecture diagram
+│   ├── permutation_feature_importance.png # Feature importance plot
+│   ├── technical_*.png                 # Technical diagrams explaining feature engineering and cross-validation
+│   └── WiDS-Global-Datathon-2026.jpg   # WiDS 2026 Datathon Banner
+│
+├── notebooks/                          # Jupyter Notebooks for EDA and modeling
+│   └── wids_2026_wildfire_survival_notebook.ipynb # Full end-to-end modeling pipeline
+│
+├── outputs/                            # Generated predictions and model outputs
+│   └── final_submission.csv            # Final Kaggle submission file containing probability predictions
+│
+└── src/                                # Source code for data processing and feature engineering
+    └── feature_engineering.py          # Physics-based feature pipeline logic
+```
 
 ---
 
